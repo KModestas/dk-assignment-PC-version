@@ -64,13 +64,12 @@ class NewsLetter extends Component {
     this.setState({
     hideButton: 'hide',
     blueBgVh: 'blue-bg-vh',
-    ...this.state.hiddeneCategories,
     newArray
     })
   }
 
   isValid =(e)=> {
-    if(e.checked) {
+    if(e.target.checked) {
       console.log('VALIDDDDD')
       this.setState({
       categoryValid: true
