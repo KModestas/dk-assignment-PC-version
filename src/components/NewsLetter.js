@@ -68,7 +68,7 @@ class NewsLetter extends Component {
     })
   }
 
-  isValid =(e)=> {
+  isValid = e => {
     if(e.target.checked) {
       console.log('VALIDDDDD')
       this.setState({
