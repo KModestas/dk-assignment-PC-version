@@ -97,19 +97,19 @@ class NewsLetter extends Component {
 <div className="category-container">
     <div className="category-flex">
             <div className="category-block">
-              <input onClick={(e)=> this.isValid(e.target)}  type="checkbox"/>
+              <input onClick={this.isValid}  type="checkbox"/>
               <img src={require("../assets/children-s-copy-2.png")} alt=""/>
               <img src={require("../assets/bitmap-copy-2.png")} alt=""/>
             </div>
 
             <div className="category-block">
-              <input onClick={(e)=> this.isValid(e.target)} type="checkbox"/>
+              <input onClick={this.isValid} type="checkbox"/>
               <img src={require("../assets/crafts-hobbies-copy.png")} alt=""/>
               <img src={require("../assets/bitmap-copy-9.png")} alt=""/>
             </div>
 
             <div className="category-block">
-              <input onClick={(e)=> this.isValid(e.target)} type="checkbox"/>
+              <input onClick={this.isValid} type="checkbox"/>
               <img src={require("../assets/education-teachers-copy-2.png")} alt=""
               />
               <img
@@ -130,7 +130,7 @@ class NewsLetter extends Component {
               this.state.hiddenCategories.map((category, i) => {
                 return(
                   <div key={i} className={`${category.class} category-block`}>
-                    <input onClick={(e)=> this.isValid(e.target)} type="checkbox"/>
+                    <input onClick={this.isValid} type="checkbox"/>
                     <img src={category.name} alt="" />
                     <img src={category.image} alt="" />
                     { category.class = '' }
