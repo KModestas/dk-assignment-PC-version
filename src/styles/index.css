@@ -1,0 +1,360 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.blue-bg {
+  max-width: 1180px;
+  height: 1000px;
+  background: url('../assets/rectangle-8.png');
+  margin: 50px auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  /*properties are necessary when trying to margin auto with position absolute*/
+}
+
+
+.book-recommendations {
+  width: 780px;
+  height: 56px;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+  background: url('../assets/book-recommendations.png') no-repeat;
+}
+
+.category-subheading {
+  max-width: 723px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+  margin: 20px auto;
+  background: url('../assets/choose-from-the-cate.png') no-repeat;
+}
+
+.NewsLetterContainer {
+    margin: 62px auto;
+    text-align: center;
+    max-width: 1080px;
+}
+
+.category-container {
+  margin: 20px auto;
+  max-width: 1080px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category-block {
+  width: 340px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #ffffff;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+
+.category-image {
+  max-width: 76px;
+  max-height: 42px;
+  object-fit: contain;
+}
+
+
+/*****************SUBFORM STYLES*********************/
+
+.subform-container {
+  max-width: 780px;
+  height: 200px;
+  margin: auto;
+}
+
+.Join-our-newsletter {
+  max-width: 612px;
+  height: 18px;
+  text-align: center;
+  margin: 30px auto;
+  object-fit: contain;
+  background: url('../assets/join-our-newsletter.png') no-repeat center;
+}
+
+.subform-inputs {
+  max-width: 780px;
+  height: 232px;
+  object-fit: contain;
+  margin: auto;
+}
+
+.fname-input {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.lname-input {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.email-input {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+
+.termsAndConditions {
+  max-width: 800px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 380px;
+  height: 60px;
+  object-fit: contain;
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 3px;
+  font-size: 16px;
+}
+
+button {
+  width: 183px;
+  height: 60px;
+  object-fit: contain;
+  display: inline-flex;
+  background-color: #e30613;
+  color: white;
+}
+
+.show-all-categories {
+  display: none;
+}
+
+/*#hide-button {
+  display: none;
+}*/
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+}
+
+.iAgree {
+  width: 349px;
+  height: 20px;
+  object-fit: contain;
+  margin-left: 15px;
+  background: url('../assets/i-agree-to-the-priva.png') no-repeat center;
+}
+
+p {
+  color: red;
+  display: block;
+}
+
+.subscribe {
+  display: inline-block;
+  margin: auto;
+}
+
+/**********SUCESSS PAGE**************/
+
+.success-container {
+  width: 1180px;
+  height:440px;
+  background: url('../assets/rectangle-green.png');
+  margin: 63px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butterfly {
+  width: 207px;
+  height: 280px;
+  object-fit: contain;
+  background: url('../assets/bitmap.png');
+}
+
+
+.thankyou {
+  width: 532px;
+  height: 168px;
+  object-fit: contain;
+  background: url('../assets/success-thank-you-f.png') no-repeat;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .blue-bg {
+    width: 970px;
+    height: 150vh;
+  }
+
+  input[type="text"] {
+    width: 330px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .success-container {
+    width: 940px;
+    height: 440px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .blue-bg {
+    width: 768px;
+    height: 140vh;
+  }
+
+  .book-recommendations {
+    width: 619px;
+    height: 40px;
+    background: url('../assets/book-recommendations3.png') no-repeat center;
+  }
+
+  .category-subheading {
+    width: 670px;
+    height: 24px;
+    background: url('../assets/choose-from-the-cate-copy3.png') no-repeat center;
+  }
+
+  .category-container {
+    max-width: 760px;
+  }
+
+  .category-block {
+    width: 330px;
+  }
+
+
+  input[type="text"] {
+    width: 330px;
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .success-container {
+    width: 730px;
+    height: 287px;
+  }
+
+  .butterfly {
+    width: 152px;
+    height: 286px;
+    background: url('../assets/bitmap3.png') no-repeat center;
+  }
+
+  .thankyou {
+    width: 404px;
+    height: 120px;
+    background: url('../assets/success-thank-you-f3.png') no-repeat;
+  }
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+  .blue-bg {
+    width: 320px;
+    height: 190vh;
+    margin: 0;
+  }
+
+  .blue-bg-vh {
+    height: 280vh;
+  }
+
+  .book-recommendations {
+    width: 280px;
+    height: 52px;
+    margin: auto;
+    background: url('../assets/book-recommendations2.png') no-repeat center;
+  }
+
+  .category-subheading {
+    width: 280px;
+    height: 36px;
+    background: url('../assets/choose-from-the-cate2.png') no-repeat center;
+  }
+
+  input[type="text"] {
+    width: 280px;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  .email-input {
+    margin: 0;
+  }
+
+  .category-block {
+    width: 280px;
+    height: 44px;
+  }
+
+  .category-block img {
+    max-width: 150px;
+  }
+
+  .Join-our-newsletter {
+    width: 280px;
+    height: 36px;
+    background: url('../assets/join-our-newsletter2.png') no-repeat center;
+  }
+
+  .iAgree {
+    width: 250px;
+    height: 36px;
+    background: url('../assets/i-agree-to-the-priva-copy3.png') no-repeat center;
+  }
+
+  .show-all-categories {
+    display: inline-block;
+  }
+
+  .hide {
+    display: none;
+  }
+
+ .success-container {
+   width: 320px;
+   height: 276px;
+   flex-direction: column;
+ }
+
+ .butterfly {
+   width: 95px;
+   height: 129px;
+   background: url('../assets/butterfly-2.png') no-repeat center;
+ }
+
+
+ .thankyou {
+   width: 280px;
+   height: 78px;
+   background: url('../assets/success-thank-you-f2.png') no-repeat;
+ }
+
+}
