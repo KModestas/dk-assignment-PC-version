@@ -158,7 +158,7 @@ class SubForm extends Component {
               <p>{ this.state.errors.emailError }</p>
             </div>
 
-        <button onClick={e => this.onSubmit(e)}>
+        <button onClick={this.onSubmit}>
           <img
             src={require('../assets/subscribe.png')}
             alt=""
