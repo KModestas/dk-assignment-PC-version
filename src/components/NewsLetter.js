@@ -143,7 +143,7 @@ class NewsLetter extends Component {
       </div>
 </div>
 
-        <SubForm categoryValid={this.state.categoryValid} />
+    {  this.state.categoryValid && <SubForm categoryValid={this.state.categoryValid} /> }
       </div>
 
       </div>
