@@ -55,7 +55,8 @@ class NewsLetter extends Component {
         image: require("../assets/bitmap-copy-13.png")
       }
     ],
-    categoryValid: false
+    categoryValid: false,
+    clicked: false
     };
 
   }
@@ -72,7 +73,8 @@ class NewsLetter extends Component {
     if(e.target.checked) {
       console.log('VALIDDDDD')
       this.setState({
-      categoryValid: true
+      categoryValid: true,
+      clicked: true
       })
     } else {
       console.log('NOT VALID')
@@ -143,7 +145,7 @@ class NewsLetter extends Component {
       </div>
 </div>
 
-    {  this.state.categoryValid && <SubForm categoryValid={this.state.categoryValid} /> }
+    {  this.state.clicked && <SubForm categoryValid={this.state.categoryValid} /> }
       </div>
 
       </div>
