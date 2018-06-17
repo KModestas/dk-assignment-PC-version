@@ -232,6 +232,10 @@ p {
 
   .blue-bg {
     width: 768px;
+    height: 100vh;
+  }
+
+  .blue-bg-vh-large: {
     height: 140vh;
   }
 
