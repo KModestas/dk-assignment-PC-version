@@ -298,6 +298,10 @@ p {
     height: 190vh;
   }
 
+  .blue-bg-vh-large: {
+    height: 280vh;
+  }
+
   .book-recommendations {
     width: 280px;
     height: 52px;
