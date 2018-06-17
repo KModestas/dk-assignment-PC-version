@@ -6,7 +6,7 @@
 
 .blue-bg {
   max-width: 1180px;
-  height: 1000px;
+  height: 600px;
   background: url('../assets/rectangle-8.png');
   margin: 50px auto;
   top: 0;
@@ -207,7 +207,11 @@ p {
 @media screen and (max-width: 1024px) {
   .blue-bg {
     width: 970px;
-    height: 150vh;
+    height: 100vh;
+  }
+
+  .blue-bg-vh-large: {
+    height: 140vh;
   }
 
   input[type="text"] {
