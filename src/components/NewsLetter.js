@@ -8,6 +8,7 @@ class NewsLetter extends Component {
     this.state = {
       hideButton: '',
       blueBgVh: '',
+      blueBgVhLarge: ''
       hiddenCategories: [
       {
         class: 'hide',
@@ -90,7 +91,7 @@ class NewsLetter extends Component {
     const newArray = []
 
     return (
-      <div className={`blue-bg ${this.state.blueBgVh}`}>
+      <div className={`blue-bg ${this.state.blueBgVh} ${this.state.blueBgVhLarge}`}>
         <div className="NewsLetterContainer">
 
           <div className="book-recommendations"></div>
