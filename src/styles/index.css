@@ -17,6 +17,10 @@
   /*properties are necessary when trying to margin auto with position absolute*/
 }
 
+.blue-bg-vh-large: {
+  height: 120vh;
+}
+
 
 .book-recommendations {
   width: 780px;
