@@ -75,6 +75,7 @@ class NewsLetter extends Component {
       console.log('VALIDDDDD')
       this.setState({
       categoryValid: true,
+      blueBgVhLarge: 'blue-bg-vh-large'
       clicked: true
       })
     } else {
